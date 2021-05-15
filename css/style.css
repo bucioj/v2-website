@@ -2,14 +2,23 @@ html,body{
   margin:0;
   height:100%;
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Arial', sans-serif;
+
 }
 
 /* Style the header */
 .header {
   padding: 100px;
   text-align: center;
-  height: 400px;
+  height: 500px;
+  background-image: url('https://techmeetups.com/wp-content/uploads/2017/10/image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.text-center{
+  color: white;
 }
 
 /* Style the top navigation bar */
@@ -38,7 +47,11 @@ div{
   padding-top: 25px;
   padding-bottom: 25px;
 }
-
+img{
+  border-radius: 50%;
+  position: relative;
+  padding: inherit;
+}
 /*FOOTER*/
 footer{
   width: 100%;
@@ -204,4 +217,4 @@ a:active {
    .envelope :hover {
      background-color: #ffffff;
      color: #ff3a00;
-   } 
+   }
